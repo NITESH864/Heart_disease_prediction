@@ -19,7 +19,7 @@ thal = st.number_input("Thalassemia (1 = normal, 2 = fixed defect, 3 = reversibl
 
 # Predict Button
 if st.button("Predict"):
-    # Load model and scaler
+    # Load model and scaler 
     model = pickle.load(open("heart_disease_model.pkl", "rb"))
     scaler = pickle.load(open("scaler.pkl", "rb"))
 
