@@ -221,11 +221,3 @@ st.markdown(
     '<div class="footer-note">ℹ️ <strong>Disclaimer:</strong> This tool supports educational and screening workflows only and must not replace professional medical judgment.</div>',
     unsafe_allow_html=True,
 )
-if warnings:
-    st.warning("⚠️ Input validation feedback:\n- " + "\n- ".join(warnings))
-else:
-    st.success("✅ Inputs look within the model's expected ranges.")
-
-st.progress(66, text="Step 2 of 3: Ready for model inference")
-
-predict_clicked = st.button("🔍 Predict Heart Disease Risk", type="primary")
