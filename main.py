@@ -220,5 +220,4 @@ st.markdown("---")
 st.markdown(
     '<div class="footer-note">ℹ️ <strong>Disclaimer:</strong> This tool supports educational and screening workflows only and must not replace professional medical judgment.</div>',
     unsafe_allow_html=True,
-    warnings = []
 )
